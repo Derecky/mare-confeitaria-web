@@ -22,7 +22,7 @@ export const globalStyles = globalCss({
   },
 
   a: {
-    color: 'inherit',
+    color: 'inherit, sans-serif',
     'text-decoration': 'none',
   },
 
