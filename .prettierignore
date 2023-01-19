@@ -1,3 +1,9 @@
-# Ignore artifacts:
-build
-coverage
+# Ignore everything recursively
+*
+
+# But not the .ts files
+!*.ts
+!*.tsx
+
+# Check subdirectories too
+!*/
