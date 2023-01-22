@@ -9,7 +9,7 @@ export const globalStyles = globalCss({
   },
 
   body: {
-    backgroundColor: '$background',
+    backgroundColor: '$black',
     color: '$white',
     margin: 0,
     padding: 0,
@@ -17,7 +17,7 @@ export const globalStyles = globalCss({
   },
 
   'body, input, textarea, button': {
-    fontFamily: 'Roboto',
+    fontFamily: 'Roboto, sans-serif',
     fontWeight: 400,
   },
 
@@ -32,7 +32,7 @@ export const globalStyles = globalCss({
     },
 
     body: {
-      color: '$background',
+      color: '$black',
       background: '$white',
     },
   },
