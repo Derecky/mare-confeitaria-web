@@ -9,15 +9,15 @@ export const globalStyles = globalCss({
   },
 
   body: {
-    backgroundColor: '$background',
-    color: '$white',
+    backgroundColor: '$white',
+    color: '$black',
     margin: 0,
     padding: 0,
     '-webkit-font-smoothing': 'antialiased',
   },
 
   'body, input, textarea, button': {
-    fontFamily: 'Roboto',
+    fontFamily: 'Roboto, sans-serif',
     fontWeight: 400,
   },
 
@@ -32,8 +32,8 @@ export const globalStyles = globalCss({
     },
 
     body: {
-      color: '$background',
-      background: '$white',
+      background: '$black',
+      color: '$white',
     },
   },
 })

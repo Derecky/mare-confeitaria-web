@@ -1,17 +1,9 @@
-import { createStitches } from '@stitches/react'
-import { colors } from './colors'
+export * from './colors'
 
-export const {
-  config,
-  styled,
-  css,
-  globalCss,
-  keyframes,
-  getCssText,
-  theme,
-  createTheme,
-} = createStitches({
-  theme: {
-    colors,
-  },
-})
+export * from './space'
+export * from './radii'
+
+export * from './fonts'
+export * from './font-sizes'
+export * from './font-weights'
+export * from './line-heights'
