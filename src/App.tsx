@@ -1,4 +1,4 @@
-import { globalStyles } from './themes/global'
+import { globalStyles } from './styles/global'
 
 globalStyles()
 

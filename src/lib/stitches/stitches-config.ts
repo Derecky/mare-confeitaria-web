@@ -1,5 +1,5 @@
 import { createStitches } from '@stitches/react'
-import { colors } from './colors'
+import { colors } from '../../themes/colors'
 
 export const {
   config,
