@@ -1,4 +1,4 @@
-import { Router } from './Router'
+import { Router } from './router'
 import { globalStyles } from './styles/global'
 
 globalStyles()
