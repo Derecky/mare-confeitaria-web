@@ -34,6 +34,6 @@ export const ButtonContainer = styled('button', {
   },
   '&:focus': {
     backgroundColor: '$yellow-3',
-    // borderColor: '$white',
+    borderColor: '$white',
   },
 })

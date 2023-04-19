@@ -1,15 +1,21 @@
 import { ButtonContainer, SidebarContainer } from './sidebar.styles'
 
+const buttons = [
+  'Gastos',
+  'Materiais',
+  'Receitas',
+  'Composições',
+  'Categorias',
+  'Produtos',
+  'Metas',
+]
+
 export function Sidebar() {
   return (
     <SidebarContainer>
-      <ButtonContainer>Gastos</ButtonContainer>
-      <ButtonContainer>Materiais</ButtonContainer>
-      <ButtonContainer>Receitas</ButtonContainer>
-      <ButtonContainer>Composições</ButtonContainer>
-      <ButtonContainer>Categorias</ButtonContainer>
-      <ButtonContainer>Produtos</ButtonContainer>
-      <ButtonContainer>Metas</ButtonContainer>
+      {buttons.map((button) => (
+        <ButtonContainer key={button}> {button} </ButtonContainer>
+      ))}
     </SidebarContainer>
   )
 }
