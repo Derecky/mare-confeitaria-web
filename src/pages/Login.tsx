@@ -5,7 +5,7 @@ import {
   InputContainer,
   LabelContainer,
   MainContainer,
-} from './login.styles'
+} from '../styles/pages/login.styles'
 
 import logomare from '../assets/mare@3x.png'
 
@@ -14,14 +14,9 @@ export function Login() {
     <MainContainer>
       <ImageContainer src={logomare} alt="" />
       <FormContainer>
-        <div>
-          <LabelContainer>Email: </LabelContainer>
-          <InputContainer type="text" placeholder="Email"></InputContainer>
-        </div>
-        <div>
-          <LabelContainer>Senha: </LabelContainer>
-          <InputContainer type="password" placeholder="Senha"></InputContainer>
-        </div>
+        <LabelContainer>Login</LabelContainer>
+        <InputContainer type="text" placeholder="Email"></InputContainer>
+        <InputContainer type="password" placeholder="Senha"></InputContainer>
         <ButtonContainer>Entrar</ButtonContainer>
       </FormContainer>
     </MainContainer>
